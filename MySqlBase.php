@@ -219,31 +219,7 @@ COLLATE = utf8mb4_unicode_ci";
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_unicode_ci";
-/*
-        $sqls[] = "CREATE TABLE IF NOT EXISTS `contact_with_lead` (
-        `contact_id` INT(11) UNSIGNED NOT NULL,
-        `lead_id` INT(11) UNSIGNED NOT NULL,
-        PRIMARY KEY (`contact_id`,`lead_id`))
-        ENGINE = InnoDB
-        DEFAULT CHARACTER SET = utf8mb4
-        COLLATE = utf8mb4_unicode_ci";
 
-        $sqls[] = "CREATE TABLE IF NOT EXISTS `company_with_lead` (
-        `company_id` INT(11) UNSIGNED NOT NULL,
-        `lead_id` INT(11) UNSIGNED NOT NULL,
-        PRIMARY KEY (`company_id`,`lead_id`))
-        ENGINE = InnoDB
-        DEFAULT CHARACTER SET = utf8mb4
-        COLLATE = utf8mb4_unicode_ci";
-
-        $sqls[] = "CREATE TABLE IF NOT EXISTS `company_with_contact` (
-        `company_id` INT(11) UNSIGNED NOT NULL,
-        `contact_id` INT(11) UNSIGNED NOT NULL,
-        PRIMARY KEY (`company_id`,`contact_id`))
-        ENGINE = InnoDB
-        DEFAULT CHARACTER SET = utf8mb4
-        COLLATE = utf8mb4_unicode_ci";
-*/
         $sqls[] = "CREATE TABLE IF NOT EXISTS `custom_fields` (
         `id` INT(11) UNSIGNED NOT NULL,
     `name` TEXT NULL DEFAULT NULL,
